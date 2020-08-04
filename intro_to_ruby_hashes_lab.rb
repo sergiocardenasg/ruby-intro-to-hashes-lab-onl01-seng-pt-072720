@@ -4,6 +4,7 @@ end
 
 def actor
   hash = {actor: "Dwayne The Rock Johnson"}
+  Hash.new { |hash, key| hash[key] =  }
 end
 
 def monopoly
